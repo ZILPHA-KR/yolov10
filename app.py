@@ -2,6 +2,7 @@ import gradio as gr
 import cv2
 import tempfile
 from ultralytics import YOLOv10
+import pandas as pdy
 
 
 def yolov10_inference(image, video, model_id, image_size, conf_threshold):
